@@ -11,45 +11,48 @@ Sentiment analysis helps data analysts within large enterprises gauge public opi
 ## Business Problem Statements
 
 Observations on the following are made:
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Sentiment analysis on YouTube comments.
+2. Exploratory data analysis on positive sentences
+3. Exploratory data analysis on negative sentences.
 
 ## Dataset
 
+- The dataset includes data gathered from the (up to) 200 listed videos on YouTube that are contained within the trending category each day in the US.
+- The headers in the comments file are:
+   - **video_id**
+   - **comment_text**
+   - **likes**
+   - **replies**
+ 
 ## Data Analysis Using Python
 
-1. 
-2. 
-3. WordCloud representation of sentiments
-4. Removal of STOPWORDS
-5. Emoji’s Analysis
-6. Plotting the graph using Plotly
+1. Polarity determination using TextBlob
+2. WordCloud representation of sentiments
+3. Removal of STOPWORDS
+4. Emoji’s Analysis
 
-### 
-
+### Polarity determination using TextBlob
+- 
 <p align="center"></p>
 <p align="center"></p>
 
-### 
+### WordCloud representation of sentiments
+- Perform WordCloud of positive and negative sentences.
+- To generate a word cloud, convert all comments into string format using the join function
+- Polarity one indicates a positive sentence, polarity -1 indicates a negative sentence.
 
+<p align="center"><img width="692" alt="image" src="https://user-images.githubusercontent.com/71536311/193200845-7235ef53-2351-415d-8588-80e60768c976.png"></p>
+
+### Removal of STOPWORDS
+- As you can see from the below image, the highlighted words don't add any value to the sentiments.
+
+<p align="center"><img width="685" alt="image" src="https://user-images.githubusercontent.com/71536311/193201401-2fdc9b93-916f-4f01-8717-99bca1327a6c.png"></p>
+
+- Remove stop words WordCloud's Stopword feature, which already has all the stop words present, to get the proper WordCloud, otherwise inaccurate data will be provided.
+
+### Emoji’s Analysis
 
 <p align="center"></p>
-
-### 
-
-
-<p align="center"></p>
-
-### 
-
-<p align="center"></p>
-<p align="center"></p>
-
-### 
-
 <p align="center"></p>
 
 ## Tools Used
