@@ -28,7 +28,7 @@ Observations on the following are made:
 
 1. Polarity determination using TextBlob
 2. WordCloud representation of sentiments
-3. Removal of STOPWORDS
+3. Removal of StopWords
 4. Emoji’s Analysis
 
 ### Polarity determination using TextBlob
