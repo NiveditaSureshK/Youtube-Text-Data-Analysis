@@ -69,7 +69,7 @@ Observations on the following are made:
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)   ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)   ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23#ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)   ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)   ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 
 - Jupyter Notebook is used as IDE.
-- Among the Python libraries, Pandas and NumPy are used for handling data, preprocessing, and mathematical functions, respectively.
+- Among the Python libraries, Pandas and NumPy are used for handling data, preprocessing, and mathematical operations, respectively.
 - Plotly, Seaborn, and Matplotlib are used for visualizing plots.
 
 For more details, please go through the Jupyter Notebook attached above.
